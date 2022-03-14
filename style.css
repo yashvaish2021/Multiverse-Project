@@ -5,14 +5,16 @@
 }
 .full_size_container{
     display: grid;
-    padding: 30px;
+    /* padding: 30px; */
     background-color: slategrey;
     grid-template-columns: repeat(10,1fr);
     grid-auto-rows: 250px;
     grid-gap: 10px;
 }
 .image_block{
-    background-color: white;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .block1{
     grid-column: 1/8;
